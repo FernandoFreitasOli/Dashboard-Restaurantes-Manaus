@@ -1,0 +1,201 @@
+id,restaurante,bairro,prato,categoria,preco,data,cliente_id
+1,Ponto do Chef,Dom Pedro,Pão com ovo,Pizzas e massas,72.64,2025-01-03,9079
+2,Cantina do Chef,Flores,Moqueca de peixe,Pizzas e massas,18.5,2025-05-19,1645
+3,Alentejo,Dom Pedro,Strogonoff de frango,Fast-food,23.04,2025-05-13,9193
+4,Delícias do Povo,Dom Pedro,X-Tudo,Vegano,74.56,2025-06-03,8487
+5,Cantina do Chef,Vieiralves,Torta de chocolate,Açaí,51.14,2025-05-18,3639
+6,Comida Boa,Aleixo,Pão com ovo,Comida oriental,53.45,2025-04-15,8379
+7,Javari,Aleixo,Açaí com banana,Sobremesas,58.29,2025-02-23,6380
+8,Ponto do Chef,Adrianópolis,Açaí com banana,Vegano,30.15,2025-03-07,8646
+9,Estação Grill,Centro,Refrigerante lata,Açaí,29.98,2025-04-16,7615
+10,Javari,Aleixo,Pão com ovo,Sobremesas,64.24,2025-02-13,9966
+11,Estação Grill,Compensa,Temaki,Almoço executivo,29.97,2025-01-19,3480
+12,Alentejo,Cidade Nova,X-Tudo,Almoço executivo,68.91,2025-01-20,3861
+13,Delícias do Povo,Compensa,Feijoada,Açaí,64.02,2025-02-02,5353
+14,Comida Boa,São Jorge,Torta de chocolate,Açaí,23.22,2025-04-26,9934
+15,Estação Grill,São Jorge,Suco natural,Sobremesas,58.02,2025-04-10,1607
+16,Nájua,Aleixo,Yakissoba,Comida oriental,45.56,2025-04-28,9569
+17,Chef do Norte,Ponta Negra,Yakissoba,Pizzas e massas,63.74,2025-02-10,7198
+18,Bom Prato,Cidade Nova,Salmão grelhado,Vegano,70.76,2025-03-26,1826
+19,Estação Grill,Adrianópolis,Suco natural,Sobremesas,19.92,2025-06-22,9583
+20,Chef do Norte,Compensa,Filé acebolado,Bebidas,69.1,2025-03-31,4117
+21,Chef do Norte,São Jorge,Moqueca de peixe,Almoço executivo,45.05,2025-06-03,8832
+22,Lalbero,Flores,Salmão grelhado,Sobremesas,47.78,2025-05-01,5795
+23,La Parrilla,Vieiralves,Filé acebolado,Sobremesas,41.64,2025-01-22,6408
+24,Bom Prato,Aleixo,Bolo de cenoura,Almoço executivo,71.34,2025-05-27,5238
+25,Villa do Sabor,Dom Pedro,Temaki,Comida oriental,36.12,2025-06-03,3385
+26,Sabor a Mi,Centro,Bolo de cenoura,Vegano,29.96,2025-03-12,5774
+27,Cantina do Chef,Flores,Moqueca de peixe,Comida oriental,32.82,2025-05-04,7453
+28,Sabor da Terra,Dom Pedro,Sanduíche vegano,Pizzas e massas,48.99,2025-04-18,7883
+29,La Parrilla,Flores,Refrigerante lata,Vegano,79.45,2025-06-13,3457
+30,La Parrilla,Centro,Sanduíche vegano,Vegano,40.94,2025-02-02,3476
+31,Alentejo,Vieiralves,Suco natural,Vegano,71.97,2025-01-09,4062
+32,Lalbero,São Jorge,Hot roll,Bebidas,56.36,2025-04-10,8029
+33,Alentejo,Ponta Negra,Prato fitness,Açaí,57.69,2025-02-27,8962
+34,Nájua,Cidade Nova,Torta de chocolate,Pizzas e massas,56.77,2025-01-05,9531
+35,Sabor da Terra,Vieiralves,Torta de chocolate,Sobremesas,73.5,2025-02-15,7546
+36,Villa do Sabor,Aleixo,Refrigerante lata,Fast-food,51.58,2025-06-11,4129
+37,Comida Boa,Dom Pedro,Hot roll,Lanches rápidos,35.28,2025-01-11,1551
+38,Bom Prato,Centro,Filé acebolado,Açaí,35.97,2025-01-09,3674
+39,Comida Boa,Adrianópolis,Prato fitness,Pizzas e massas,59.73,2025-06-14,6911
+40,Javari,Cidade Nova,Bolo de cenoura,Bebidas,31.49,2025-05-21,1183
+41,Alentejo,Adrianópolis,Bolo de cenoura,Açaí,51.78,2025-01-31,8596
+42,Lalbero,São Jorge,X-Tudo,Vegano,36.77,2025-06-25,7567
+43,Javari,Aleixo,Torta de chocolate,Fast-food,57.61,2025-04-17,9948
+44,Alentejo,Centro,Pizza calabresa,Fast-food,50.38,2025-03-30,4830
+45,Javari,São Jorge,Pão com ovo,Bebidas,43.57,2025-05-25,1794
+46,Alentejo,Dom Pedro,Yakissoba,Vegano,67.02,2025-06-05,5537
+47,Villa do Sabor,Adrianópolis,Hot roll,Lanches rápidos,73.56,2025-06-25,1855
+48,Ponto do Chef,Ponta Negra,Sanduíche vegano,Pizzas e massas,62.44,2025-04-13,9391
+49,Sabor da Terra,Compensa,Torta de chocolate,Vegano,30.12,2025-05-25,1787
+50,La Parrilla,Vieiralves,Bolo de cenoura,Sobremesas,23.73,2025-03-04,7827
+51,Chef do Norte,Centro,Bolo de cenoura,Pizzas e massas,54.13,2025-01-18,1149
+52,Chef do Norte,Compensa,Strogonoff de frango,Fast-food,35.34,2025-05-11,1801
+53,Delícias do Povo,Compensa,Yakissoba,Açaí,25.33,2025-05-20,3308
+54,Cantina do Chef,Ponta Negra,Sanduíche vegano,Lanches rápidos,41.56,2025-05-19,4058
+55,La Parrilla,Centro,Temaki,Comida oriental,26.64,2025-01-20,6509
+56,Sabor da Terra,Centro,Yakissoba,Bebidas,22.4,2025-06-08,3946
+57,Cantina do Chef,Aleixo,Bolo de cenoura,Açaí,67.82,2025-01-15,9759
+58,Lalbero,Compensa,Açaí com banana,Açaí,58.85,2025-03-21,3577
+59,Ponto do Chef,Ponta Negra,Salmão grelhado,Vegano,20.41,2025-03-08,5600
+60,Javari,Dom Pedro,Sanduíche vegano,Açaí,72.03,2025-01-25,8628
+61,Ponto do Chef,Vieiralves,Prato fitness,Bebidas,46.36,2025-03-28,9294
+62,Ponto do Chef,Flores,Suco natural,Açaí,23.25,2025-01-10,2083
+63,Estação Grill,Flores,Pizza calabresa,Pizzas e massas,38.65,2025-01-13,3803
+64,Lalbero,São Jorge,Moqueca de peixe,Fast-food,42.36,2025-02-25,9823
+65,Villa do Sabor,Dom Pedro,Yakissoba,Pizzas e massas,66.78,2025-05-03,8552
+66,Comida Boa,Dom Pedro,X-Tudo,Pizzas e massas,18.83,2025-05-15,4334
+67,Sabor da Terra,Compensa,Refrigerante lata,Pizzas e massas,79.78,2025-01-05,6381
+68,Cantina do Chef,Cidade Nova,Pão com ovo,Açaí,56.25,2025-02-22,7059
+69,Ponto do Chef,Vieiralves,Strogonoff de frango,Sobremesas,68.43,2025-06-06,2301
+70,Nájua,Dom Pedro,Torta de chocolate,Fast-food,26.4,2025-06-18,6694
+71,La Parrilla,Centro,Sanduíche vegano,Pizzas e massas,47.37,2025-04-13,1990
+72,Lalbero,Ponta Negra,Suco natural,Fast-food,37.96,2025-03-17,2940
+73,Lalbero,Cidade Nova,X-Tudo,Pizzas e massas,75.83,2025-05-09,6466
+74,Chef do Norte,Cidade Nova,Pão com ovo,Fast-food,45.59,2025-06-20,3430
+75,Bom Prato,Dom Pedro,Hot roll,Sobremesas,71.6,2025-01-24,4597
+76,Comida Boa,São Jorge,Yakissoba,Pizzas e massas,76.99,2025-05-08,1136
+77,Ponto do Chef,São Jorge,Prato fitness,Comida oriental,30.51,2025-03-18,4523
+78,Villa do Sabor,Cidade Nova,Açaí com banana,Comida oriental,19.0,2025-03-01,7683
+79,Delícias do Povo,Flores,Salmão grelhado,Bebidas,77.27,2025-05-20,2238
+80,Javari,Flores,X-Tudo,Almoço executivo,71.77,2025-03-10,9252
+81,Lalbero,Cidade Nova,Suco natural,Fast-food,26.99,2025-02-20,8684
+82,Javari,Compensa,Feijoada,Pizzas e massas,53.11,2025-02-07,8460
+83,Sabor da Terra,Flores,Pão com ovo,Bebidas,30.19,2025-06-10,8911
+84,Bom Prato,Adrianópolis,Prato fitness,Almoço executivo,78.14,2025-06-30,4507
+85,Sabor a Mi,São Jorge,Açaí com banana,Vegano,48.91,2025-05-30,6213
+86,Ponto do Chef,Vieiralves,Prato fitness,Bebidas,38.12,2025-01-26,4316
+87,Chef do Norte,Flores,Strogonoff de frango,Bebidas,66.37,2025-05-04,4307
+88,Sabor da Terra,Ponta Negra,Pão com ovo,Sobremesas,71.34,2025-03-17,8964
+89,Villa do Sabor,Centro,Strogonoff de frango,Açaí,56.36,2025-02-13,9227
+90,Alentejo,Compensa,Sanduíche vegano,Vegano,50.19,2025-02-28,8636
+91,Bom Prato,Centro,Feijoada,Comida oriental,46.56,2025-05-15,3543
+92,Estação Grill,Adrianópolis,Pão com ovo,Fast-food,48.0,2025-06-27,1284
+93,Estação Grill,Centro,Strogonoff de frango,Bebidas,70.34,2025-03-24,7353
+94,Ponto do Chef,Cidade Nova,Prato fitness,Almoço executivo,70.07,2025-06-21,3214
+95,La Parrilla,Flores,Yakissoba,Sobremesas,25.71,2025-04-12,6560
+96,Villa do Sabor,Vieiralves,Torta de chocolate,Comida oriental,18.15,2025-03-08,9821
+97,Cantina do Chef,Adrianópolis,Hot roll,Lanches rápidos,63.03,2025-03-15,4968
+98,Nájua,Centro,X-Tudo,Bebidas,32.03,2025-02-01,7862
+99,Javari,Dom Pedro,Hot roll,Comida oriental,34.21,2025-04-27,2152
+100,La Parrilla,Centro,Yakissoba,Bebidas,55.76,2025-04-11,3794
+101,Chef do Norte,Dom Pedro,Torta de chocolate,Açaí,42.11,2025-05-15,5114
+102,Comida Boa,Ponta Negra,Refrigerante lata,Sobremesas,71.65,2025-06-22,2145
+103,Comida Boa,Flores,Hot roll,Lanches rápidos,59.91,2025-02-24,2032
+104,Sabor a Mi,Dom Pedro,Suco natural,Comida oriental,54.28,2025-02-28,4553
+105,Estação Grill,Cidade Nova,Refrigerante lata,Açaí,51.36,2025-05-19,4026
+106,Sabor da Terra,Compensa,Torta de chocolate,Pizzas e massas,44.01,2025-02-15,7705
+107,La Parrilla,Dom Pedro,Salmão grelhado,Comida oriental,49.45,2025-02-28,2441
+108,Chef do Norte,Centro,Salmão grelhado,Lanches rápidos,45.32,2025-03-29,5778
+109,Ponto do Chef,Cidade Nova,Açaí com banana,Vegano,24.88,2025-05-02,7056
+110,Delícias do Povo,Cidade Nova,Suco natural,Lanches rápidos,36.4,2025-01-26,1677
+111,Nájua,São Jorge,Temaki,Pizzas e massas,27.45,2025-06-01,3085
+112,Chef do Norte,São Jorge,X-Tudo,Vegano,56.64,2025-04-15,8180
+113,Alentejo,Flores,Yakissoba,Lanches rápidos,57.48,2025-06-22,8429
+114,Delícias do Povo,Vieiralves,Bolo de cenoura,Açaí,55.67,2025-01-15,6087
+115,Bom Prato,Dom Pedro,Refrigerante lata,Fast-food,74.67,2025-01-02,6815
+116,Bom Prato,Flores,Pão com ovo,Pizzas e massas,28.91,2025-05-15,9392
+117,Cantina do Chef,Ponta Negra,Moqueca de peixe,Fast-food,37.06,2025-04-18,8285
+118,Bom Prato,Ponta Negra,Salmão grelhado,Vegano,34.13,2025-03-20,3293
+119,Nájua,Flores,Prato fitness,Bebidas,61.81,2025-04-15,6068
+120,Sabor da Terra,Flores,Suco natural,Bebidas,76.08,2025-04-04,1092
+121,Lalbero,Ponta Negra,Moqueca de peixe,Bebidas,44.56,2025-04-13,6219
+122,Alentejo,Aleixo,Pão com ovo,Pizzas e massas,52.72,2025-06-26,7883
+123,Javari,Cidade Nova,Temaki,Sobremesas,46.74,2025-01-27,9463
+124,Nájua,Ponta Negra,X-Tudo,Vegano,30.71,2025-01-13,7684
+125,Bom Prato,Flores,Hot roll,Vegano,24.58,2025-06-07,8153
+126,Chef do Norte,Aleixo,Pizza calabresa,Fast-food,72.56,2025-01-24,7467
+127,Sabor a Mi,Centro,Suco natural,Sobremesas,46.52,2025-01-29,9664
+128,Ponto do Chef,Flores,X-Tudo,Vegano,48.2,2025-05-25,3121
+129,Lalbero,Vieiralves,Moqueca de peixe,Bebidas,33.75,2025-01-16,1240
+130,Javari,Aleixo,Suco natural,Fast-food,76.84,2025-04-01,7072
+131,Sabor da Terra,Adrianópolis,Refrigerante lata,Açaí,26.4,2025-01-31,7333
+132,Bom Prato,Centro,Açaí com banana,Açaí,52.2,2025-01-01,8235
+133,Sabor a Mi,Adrianópolis,Prato fitness,Açaí,76.28,2025-05-19,2986
+134,Lalbero,Ponta Negra,Feijoada,Lanches rápidos,59.08,2025-03-29,4194
+135,Ponto do Chef,Vieiralves,Moqueca de peixe,Sobremesas,43.74,2025-03-28,9112
+136,Villa do Sabor,Adrianópolis,Salmão grelhado,Vegano,21.72,2025-06-23,3763
+137,Delícias do Povo,Cidade Nova,Temaki,Fast-food,60.02,2025-01-01,4108
+138,Sabor a Mi,São Jorge,X-Tudo,Comida oriental,22.77,2025-03-08,4445
+139,Cantina do Chef,Adrianópolis,Temaki,Pizzas e massas,41.92,2025-03-02,5487
+140,Villa do Sabor,Ponta Negra,X-Tudo,Bebidas,19.12,2025-04-16,3683
+141,Nájua,Vieiralves,Prato fitness,Sobremesas,62.26,2025-03-13,2611
+142,Sabor da Terra,Adrianópolis,Moqueca de peixe,Almoço executivo,54.59,2025-05-30,9664
+143,Alentejo,Dom Pedro,Suco natural,Almoço executivo,32.34,2025-01-02,8937
+144,Nájua,Compensa,Prato fitness,Comida oriental,40.2,2025-05-07,4588
+145,Lalbero,Ponta Negra,Yakissoba,Açaí,33.59,2025-02-12,4645
+146,Cantina do Chef,Vieiralves,Prato fitness,Comida oriental,19.97,2025-01-16,3410
+147,La Parrilla,Centro,Suco natural,Açaí,18.39,2025-01-08,8211
+148,Lalbero,Aleixo,Torta de chocolate,Lanches rápidos,51.98,2025-03-05,2532
+149,La Parrilla,São Jorge,Prato fitness,Comida oriental,59.25,2025-06-02,2684
+150,Lalbero,Centro,Feijoada,Fast-food,76.38,2025-01-30,2278
+151,Nájua,Aleixo,Sanduíche vegano,Sobremesas,40.16,2025-06-19,2860
+152,Sabor da Terra,Cidade Nova,Temaki,Sobremesas,61.01,2025-04-19,2775
+153,Alentejo,Aleixo,Hot roll,Almoço executivo,27.77,2025-03-01,5815
+154,La Parrilla,Vieiralves,X-Tudo,Fast-food,64.48,2025-04-09,3172
+155,Estação Grill,Ponta Negra,Suco natural,Bebidas,51.93,2025-01-15,8690
+156,Villa do Sabor,Aleixo,Moqueca de peixe,Sobremesas,65.98,2025-01-05,7980
+157,Lalbero,Centro,Prato fitness,Vegano,30.1,2025-01-08,7948
+158,Delícias do Povo,Cidade Nova,Açaí com banana,Lanches rápidos,54.5,2025-02-26,6142
+159,Villa do Sabor,Ponta Negra,X-Tudo,Pizzas e massas,59.74,2025-04-11,7938
+160,La Parrilla,Flores,Açaí com banana,Almoço executivo,49.73,2025-01-03,5989
+161,Alentejo,Cidade Nova,Hot roll,Açaí,54.0,2025-02-07,9966
+162,Javari,Dom Pedro,Moqueca de peixe,Bebidas,70.7,2025-05-19,3284
+163,Sabor a Mi,Ponta Negra,Moqueca de peixe,Pizzas e massas,71.52,2025-04-17,6709
+164,Chef do Norte,Centro,X-Tudo,Sobremesas,24.29,2025-02-26,9847
+165,Comida Boa,Flores,Açaí com banana,Lanches rápidos,36.94,2025-04-14,5969
+166,Cantina do Chef,Aleixo,Torta de chocolate,Almoço executivo,21.35,2025-05-10,1707
+167,Chef do Norte,Flores,Strogonoff de frango,Almoço executivo,75.23,2025-05-27,6944
+168,Bom Prato,Aleixo,Hot roll,Bebidas,30.41,2025-05-15,9034
+169,Alentejo,Ponta Negra,Refrigerante lata,Bebidas,43.1,2025-01-26,4763
+170,Ponto do Chef,Vieiralves,Prato fitness,Vegano,54.61,2025-06-27,3125
+171,Comida Boa,Compensa,Hot roll,Fast-food,53.27,2025-04-06,2707
+172,Javari,Compensa,Pão com ovo,Vegano,57.79,2025-01-28,1711
+173,Lalbero,Compensa,Torta de chocolate,Lanches rápidos,32.79,2025-01-11,7036
+174,Alentejo,Aleixo,Pizza calabresa,Pizzas e massas,75.62,2025-02-25,7189
+175,Estação Grill,São Jorge,X-Tudo,Bebidas,37.49,2025-05-28,1628
+176,Delícias do Povo,Dom Pedro,Moqueca de peixe,Lanches rápidos,25.15,2025-06-30,6378
+177,Sabor da Terra,Aleixo,Sanduíche vegano,Açaí,24.14,2025-01-07,7922
+178,Sabor a Mi,Ponta Negra,Prato fitness,Lanches rápidos,55.34,2025-02-16,5669
+179,Lalbero,Cidade Nova,X-Tudo,Açaí,47.92,2025-01-03,8181
+180,Comida Boa,Flores,Pizza calabresa,Vegano,54.67,2025-02-19,6851
+181,Estação Grill,Flores,Hot roll,Almoço executivo,74.49,2025-04-29,2303
+182,Villa do Sabor,Cidade Nova,Strogonoff de frango,Lanches rápidos,42.54,2025-04-03,2645
+183,Delícias do Povo,Dom Pedro,Hot roll,Bebidas,66.68,2025-04-28,3378
+184,Sabor a Mi,Vieiralves,Bolo de cenoura,Lanches rápidos,45.37,2025-02-17,5481
+185,Ponto do Chef,Centro,Filé acebolado,Pizzas e massas,71.55,2025-02-06,4551
+186,Villa do Sabor,Aleixo,Salmão grelhado,Pizzas e massas,38.15,2025-03-13,5434
+187,Sabor a Mi,Aleixo,Salmão grelhado,Bebidas,50.49,2025-03-24,8187
+188,Javari,São Jorge,Salmão grelhado,Açaí,22.98,2025-03-07,8807
+189,Bom Prato,Flores,X-Tudo,Almoço executivo,73.36,2025-02-03,3176
+190,Estação Grill,Adrianópolis,Refrigerante lata,Comida oriental,35.19,2025-03-18,1863
+191,Chef do Norte,Vieiralves,Salmão grelhado,Almoço executivo,64.87,2025-02-18,6343
+192,Villa do Sabor,São Jorge,Temaki,Almoço executivo,54.83,2025-02-21,2741
+193,Comida Boa,Centro,Suco natural,Almoço executivo,39.93,2025-02-19,2144
+194,Comida Boa,Flores,Açaí com banana,Fast-food,32.17,2025-02-03,4930
+195,Villa do Sabor,Centro,Refrigerante lata,Lanches rápidos,58.89,2025-06-27,6055
+196,Estação Grill,Aleixo,Yakissoba,Lanches rápidos,20.59,2025-04-12,5367
+197,Bom Prato,Dom Pedro,Filé acebolado,Fast-food,61.18,2025-06-06,6165
+198,Villa do Sabor,Compensa,Prato fitness,Sobremesas,70.73,2025-04-14,8976
+199,Nájua,Cidade Nova,Feijoada,Comida oriental,33.19,2025-02-27,4788
+200,Estação Grill,Aleixo,Moqueca de peixe,Pizzas e massas,65.39,2025-03-13,4870

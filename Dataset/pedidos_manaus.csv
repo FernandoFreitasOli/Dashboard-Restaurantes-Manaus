@@ -1,0 +1,101 @@
+id,restaurante,bairro,prato,categoria,preco,data,cliente_id
+1,Sabor da Terra,Dom Pedro,Escondidinho,Bebida,60.36,2025-02-16,4371
+2,Bom Prato,Centro,Escondidinho,Jantar,45.36,2025-05-08,8767
+3,Bom Prato,Cidade Nova,Escondidinho,Jantar,32.65,2025-01-16,1859
+4,Villa do Sabor,Compensa,X-Tudo,Lanche,55.94,2025-06-25,1622
+5,Lalbero,Vieiralves,Moqueca,Lanche,55.85,2025-05-21,9005
+6,Nájua,Vieiralves,Feijoada,Lanche,50.92,2025-03-13,2182
+7,Sabor da Terra,Centro,Tacacá,Bebida,33.86,2025-05-15,8290
+8,Nájua,São Jorge,Picanha,Lanche,28.89,2025-04-10,7856
+9,Javari,Adrianópolis,Pizza,Almoço,32.54,2025-05-27,4899
+10,Lalbero,Dom Pedro,Pizza,Lanche,69.06,2025-05-28,3851
+11,Villa do Sabor,Vieiralves,X-Tudo,Jantar,65.55,2025-05-22,9401
+12,Ponto do Chef,São Jorge,Picanha,Lanche,17.93,2025-06-30,1200
+13,Sabor da Terra,Dom Pedro,Feijoada,Lanche,53.99,2025-02-15,2424
+14,Nájua,Compensa,Filé ao molho,Jantar,50.12,2025-03-16,4975
+15,Sabor a Mi,Adrianópolis,Feijoada,Bebida,16.28,2025-05-09,3774
+16,Nájua,Vieiralves,X-Tudo,Bebida,63.6,2025-04-16,4425
+17,Ponto do Chef,Dom Pedro,Frango grelhado,Bebida,17.25,2025-03-22,5554
+18,Javari,Cidade Nova,Escondidinho,Lanche,35.32,2025-01-05,4231
+19,Nájua,Cidade Nova,Escondidinho,Bebida,59.71,2025-04-10,8189
+20,La Parrilla,São Jorge,Lasanha,Lanche,33.94,2025-04-25,6997
+21,Nájua,São Jorge,Filé ao molho,Sobremesa,52.17,2025-05-11,4252
+22,Javari,Compensa,Feijoada,Sobremesa,37.26,2025-02-11,3006
+23,Bom Prato,Compensa,Frango grelhado,Bebida,16.06,2025-06-07,4244
+24,Alentejo,Adrianópolis,X-Tudo,Bebida,55.74,2025-02-10,8059
+25,Javari,Vieiralves,Tacacá,Sobremesa,35.48,2025-03-08,2388
+26,Lalbero,Compensa,Picanha,Almoço,56.69,2025-05-11,2072
+27,Villa do Sabor,Flores,Filé ao molho,Bebida,36.47,2025-04-25,8911
+28,Javari,Dom Pedro,Picanha,Jantar,15.74,2025-05-16,5191
+29,Sabor a Mi,Centro,Moqueca,Sobremesa,55.94,2025-06-22,3178
+30,Sabor da Terra,Vieiralves,Escondidinho,Bebida,45.4,2025-06-28,5302
+31,Nájua,Ponta Negra,Moqueca,Lanche,68.54,2025-04-20,8736
+32,Bom Prato,São Jorge,Lasanha,Lanche,43.91,2025-02-10,7099
+33,La Parrilla,Cidade Nova,Moqueca,Lanche,62.45,2025-05-12,4350
+34,Javari,Flores,X-Tudo,Bebida,69.33,2025-03-06,1701
+35,Nájua,Adrianópolis,Picanha,Sobremesa,19.44,2025-01-28,9097
+36,Ponto do Chef,Flores,Pizza,Lanche,64.15,2025-03-12,9255
+37,Javari,Centro,Escondidinho,Jantar,65.66,2025-02-24,9996
+38,Javari,Dom Pedro,Feijoada,Almoço,78.12,2025-05-24,6300
+39,Ponto do Chef,Cidade Nova,Lasanha,Almoço,43.95,2025-04-01,1630
+40,Bom Prato,Aleixo,Frango grelhado,Lanche,36.47,2025-02-24,9967
+41,Alentejo,São Jorge,Moqueca,Sobremesa,38.62,2025-06-25,7620
+42,Alentejo,São Jorge,Lasanha,Lanche,59.57,2025-04-27,8224
+43,Alentejo,Compensa,Tacacá,Sobremesa,29.63,2025-04-23,4279
+44,Javari,Aleixo,Moqueca,Jantar,71.54,2025-03-22,7967
+45,Bom Prato,Compensa,X-Tudo,Almoço,29.37,2025-02-24,8323
+46,La Parrilla,Dom Pedro,Pizza,Sobremesa,15.86,2025-02-12,5959
+47,La Parrilla,Cidade Nova,Pizza,Almoço,51.07,2025-01-24,7401
+48,Sabor da Terra,Ponta Negra,Frango grelhado,Lanche,54.98,2025-04-04,9032
+49,Sabor da Terra,Dom Pedro,Frango grelhado,Lanche,16.97,2025-01-12,2678
+50,La Parrilla,São Jorge,Tacacá,Lanche,70.8,2025-04-12,1825
+51,Javari,Ponta Negra,Picanha,Almoço,70.0,2025-06-15,6791
+52,Ponto do Chef,Flores,Pizza,Almoço,65.16,2025-01-11,5254
+53,Sabor da Terra,Ponta Negra,Frango grelhado,Lanche,76.22,2025-03-15,5951
+54,Sabor da Terra,Cidade Nova,Lasanha,Lanche,35.95,2025-06-10,2726
+55,Lalbero,Aleixo,Escondidinho,Jantar,33.4,2025-05-23,8407
+56,Alentejo,Aleixo,Tacacá,Bebida,20.05,2025-04-27,4143
+57,La Parrilla,Compensa,Pizza,Bebida,26.36,2025-06-11,2094
+58,Alentejo,Flores,Pizza,Lanche,74.0,2025-04-27,1693
+59,Sabor a Mi,Aleixo,Pizza,Jantar,61.86,2025-03-20,1485
+60,Sabor da Terra,Cidade Nova,Pizza,Almoço,34.02,2025-04-18,2887
+61,Sabor a Mi,Cidade Nova,Escondidinho,Jantar,24.58,2025-05-16,8043
+62,Lalbero,Ponta Negra,Pizza,Almoço,57.46,2025-04-13,8016
+63,Alentejo,Flores,X-Tudo,Jantar,72.66,2025-02-08,2639
+64,Lalbero,Centro,Filé ao molho,Jantar,59.95,2025-01-10,3518
+65,Ponto do Chef,Compensa,X-Tudo,Jantar,56.4,2025-04-29,2131
+66,Bom Prato,Centro,Escondidinho,Lanche,27.25,2025-01-27,6879
+67,Alentejo,Flores,Frango grelhado,Lanche,39.17,2025-01-07,2002
+68,Sabor a Mi,Ponta Negra,Lasanha,Almoço,51.6,2025-03-10,1301
+69,Bom Prato,Cidade Nova,Filé ao molho,Jantar,25.19,2025-06-12,6541
+70,Ponto do Chef,Dom Pedro,Tacacá,Bebida,45.73,2025-01-27,1987
+71,Alentejo,Dom Pedro,X-Tudo,Almoço,17.3,2025-06-14,4305
+72,Javari,Compensa,Feijoada,Bebida,54.56,2025-05-02,8642
+73,Ponto do Chef,Vieiralves,Filé ao molho,Lanche,16.88,2025-03-28,3159
+74,Alentejo,Cidade Nova,Moqueca,Almoço,24.62,2025-04-09,2543
+75,Alentejo,Aleixo,Picanha,Almoço,73.01,2025-03-15,3264
+76,Nájua,Flores,X-Tudo,Sobremesa,38.17,2025-04-14,8500
+77,Bom Prato,Vieiralves,Pizza,Sobremesa,30.41,2025-04-07,7459
+78,La Parrilla,Ponta Negra,Feijoada,Lanche,46.84,2025-03-17,4762
+79,Villa do Sabor,Vieiralves,Frango grelhado,Sobremesa,44.27,2025-06-09,3150
+80,Bom Prato,Compensa,Lasanha,Almoço,58.61,2025-05-30,4545
+81,La Parrilla,Dom Pedro,Lasanha,Sobremesa,47.54,2025-02-26,7197
+82,Nájua,Vieiralves,Tacacá,Almoço,73.29,2025-06-03,1524
+83,La Parrilla,Compensa,Pizza,Almoço,58.79,2025-06-18,2787
+84,Sabor da Terra,Adrianópolis,Escondidinho,Sobremesa,59.95,2025-02-21,1393
+85,Ponto do Chef,Flores,Escondidinho,Bebida,18.47,2025-03-22,9945
+86,La Parrilla,Dom Pedro,Feijoada,Lanche,55.36,2025-05-25,5120
+87,Sabor a Mi,Adrianópolis,Frango grelhado,Bebida,25.99,2025-03-05,7962
+88,Bom Prato,Dom Pedro,Lasanha,Sobremesa,45.11,2025-01-08,4560
+89,Bom Prato,Ponta Negra,X-Tudo,Bebida,54.01,2025-05-13,8452
+90,Sabor a Mi,Ponta Negra,Feijoada,Bebida,54.15,2025-05-11,4790
+91,Ponto do Chef,Cidade Nova,Picanha,Almoço,17.27,2025-06-03,3857
+92,Nájua,Ponta Negra,Lasanha,Almoço,22.58,2025-06-05,6264
+93,Lalbero,São Jorge,Escondidinho,Bebida,59.3,2025-02-03,7425
+94,Nájua,Aleixo,Filé ao molho,Bebida,47.73,2025-02-03,2346
+95,Sabor da Terra,Aleixo,Lasanha,Almoço,35.04,2025-04-30,5447
+96,Lalbero,São Jorge,Moqueca,Sobremesa,16.81,2025-02-16,3060
+97,Ponto do Chef,Vieiralves,Filé ao molho,Jantar,22.37,2025-06-30,7142
+98,Villa do Sabor,Centro,Picanha,Bebida,71.38,2025-01-16,3239
+99,Bom Prato,Cidade Nova,Lasanha,Sobremesa,33.18,2025-06-08,9802
+100,La Parrilla,Dom Pedro,Tacacá,Lanche,61.63,2025-04-23,8323
