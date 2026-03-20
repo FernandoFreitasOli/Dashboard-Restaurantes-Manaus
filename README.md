@@ -98,11 +98,18 @@ npm run dev
 
 ## Roadmap (Proximas Entregas)
 
-- Previsao de demanda por categoria e regiao
-- Analise de tendencia temporal por tipo de restaurante
-- Ranking inteligente de restaurantes por oportunidade de crescimento
-- Pipeline de web scraping para ampliar base com dados reais de mercado
-- Novas visualizacoes comparativas (ticket medio, faixa de preco, sazonalidade)
+- [x] Previsao de demanda por categoria e regiao
+- [x] Analise de tendencia temporal por tipo de restaurante
+- [x] Ranking inteligente de restaurantes por oportunidade de crescimento
+- [x] Pipeline de web scraping para ampliar base com dados reais de mercado (com fallback sintetico)
+- [x] Novas visualizacoes comparativas (ticket medio, faixa de preco, sazonalidade)
+
+## Entrega Mais Recente (Mar 2026)
+
+- API expandida com modulos analiticos para forecast, tendencia, ranking e comparativos
+- Dashboard React com nova organizacao visual e blocos de inteligencia estrategica
+- Acionamento de pipeline de coleta de dados de mercado direto pela sidebar
+- Indicadores extras de inteligencia de mercado nos KPIs
 
 ## Objetivo de Impacto
 

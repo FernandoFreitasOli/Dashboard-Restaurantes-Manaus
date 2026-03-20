@@ -24,10 +24,18 @@ export default function App() {
   const [graphs, setGraphs] = useState({
     histogram: null,
     map: null,
+    forecast: null,
+    temporal_trend: null,
+    ranking: null,
+    ranking_table: [],
+    comparatives: null,
+    market: null,
     stats: null
   })
   
   const [loading, setLoading] = useState(false)
+  const [scrapingLoading, setScrapingLoading] = useState(false)
+  const [statusMessage, setStatusMessage] = useState('')
 
   // Carregar opções de filtro
   useEffect(() => {
@@ -78,6 +86,24 @@ export default function App() {
     }))
   }
 
+  const handleRunScraping = async () => {
+    setScrapingLoading(true)
+    setStatusMessage('Coletando dados de mercado e enriquecendo a base...')
+
+    try {
+      const response = await axios.post('/api/scraping/run')
+      setStatusMessage(`Pipeline concluido: ${response.data.rows} restaurantes mapeados.`)
+
+      const updatedGraphs = await axios.post('/api/graphs', filters)
+      setGraphs(updatedGraphs.data)
+    } catch (error) {
+      console.error('Erro ao executar scraping:', error)
+      setStatusMessage('Nao foi possivel executar o scraping agora. Tentaremos novamente.')
+    } finally {
+      setScrapingLoading(false)
+    }
+  }
+
   return (
     <div className="app-container">
       <Header />
@@ -86,6 +112,9 @@ export default function App() {
           filters={filters}
           filterOptions={filterOptions}
           onFilterChange={handleFilterChange}
+          onRunScraping={handleRunScraping}
+          scrapingLoading={scrapingLoading}
+          statusMessage={statusMessage}
         />
         <Dashboard 
           graphs={graphs}

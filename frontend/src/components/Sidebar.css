@@ -1,8 +1,8 @@
 .sidebar {
   width: 300px;
-  background: linear-gradient(180deg, rgba(26, 42, 58, 0.95) 0%, rgba(36, 52, 71, 0.95) 100%);
+  background: linear-gradient(180deg, rgba(8, 31, 45, 0.95) 0%, rgba(18, 54, 74, 0.95) 100%);
   backdrop-filter: blur(15px);
-  border-right: 2px solid rgba(255, 107, 107, 0.2);
+  border-right: 2px solid rgba(88, 212, 255, 0.25);
   overflow-y: auto;
   height: calc(100vh - 150px);
   box-shadow: 15px 0 50px rgba(0, 0, 0, 0.3);
@@ -16,7 +16,7 @@
   left: 0;
   right: 0;
   height: 250px;
-  background: linear-gradient(180deg, rgba(255, 107, 107, 0.08) 0%, transparent 100%);
+  background: linear-gradient(180deg, rgba(30, 200, 165, 0.15) 0%, transparent 100%);
   pointer-events: none;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .filter-label:hover {
-  color: #ff6b6b;
+  color: #58d4ff;
   transform: translateX(4px);
 }
 
@@ -76,7 +76,7 @@
 .filter-date {
   padding: 0.9rem 1rem;
   background: rgba(255, 255, 255, 0.08);
-  border: 1.5px solid rgba(255, 107, 107, 0.3);
+  border: 1.5px solid rgba(88, 212, 255, 0.35);
   border-radius: 10px;
   color: #ffffff;
   font-size: 0.9rem;
@@ -89,8 +89,8 @@
 .filter-select:hover,
 .filter-date:hover {
   background: rgba(255, 255, 255, 0.14);
-  border-color: #ff6b6b;
-  box-shadow: 0 0 25px rgba(255, 107, 107, 0.25);
+  border-color: #58d4ff;
+  box-shadow: 0 0 25px rgba(88, 212, 255, 0.25);
   transform: translateY(-2px);
 }
 
@@ -98,8 +98,8 @@
 .filter-date:focus {
   outline: none;
   background: rgba(255, 255, 255, 0.18);
-  border-color: #ff6b6b;
-  box-shadow: 0 0 30px rgba(255, 107, 107, 0.4);
+  border-color: #58d4ff;
+  box-shadow: 0 0 30px rgba(88, 212, 255, 0.4);
 }
 
 .filter-select option {
@@ -112,7 +112,7 @@
   width: 100%;
   padding: 1rem 1.2rem;
   margin-top: 2.5rem;
-  background: linear-gradient(135deg, #ff6b6b 0%, #ff4757 100%);
+  background: linear-gradient(135deg, #1ec8a5 0%, #149f8d 100%);
   border: none;
   border-radius: 12px;
   color: #ffffff;
@@ -120,27 +120,59 @@
   font-size: 0.95rem;
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-  box-shadow: 0 10px 30px rgba(255, 107, 107, 0.35);
+  box-shadow: 0 10px 30px rgba(30, 200, 165, 0.35);
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
 .btn-clear-filters:hover {
   transform: translateY(-4px);
-  box-shadow: 0 15px 45px rgba(255, 107, 107, 0.5);
-  background: linear-gradient(135deg, #ff7f7f 0%, #ff5a6f 100%);
+  box-shadow: 0 15px 45px rgba(30, 200, 165, 0.5);
+  background: linear-gradient(135deg, #28d9b4 0%, #1ab7a0 100%);
 }
 
 .btn-clear-filters:active {
   transform: translateY(-1px);
-  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.3);
+  box-shadow: 0 8px 20px rgba(30, 200, 165, 0.3);
+}
+
+.btn-scraping {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  margin-top: 0.9rem;
+  background: linear-gradient(135deg, #58d4ff 0%, #2db8ea 100%);
+  border: none;
+  border-radius: 12px;
+  color: #05212d;
+  font-weight: 800;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.btn-scraping:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(88, 212, 255, 0.45);
+}
+
+.btn-scraping:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.status-message {
+  margin-top: 0.8rem;
+  color: #9be8ff;
+  font-size: 0.8rem;
+  line-height: 1.45;
 }
 
 .sidebar-info {
   margin-top: 3rem;
   padding: 1.5rem;
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.12) 0%, rgba(255, 107, 107, 0.05) 100%);
-  border: 1px solid rgba(255, 107, 107, 0.25);
+  background: linear-gradient(135deg, rgba(30, 200, 165, 0.15) 0%, rgba(88, 212, 255, 0.07) 100%);
+  border: 1px solid rgba(88, 212, 255, 0.25);
   border-radius: 12px;
   backdrop-filter: blur(10px);
 }
@@ -148,7 +180,7 @@
 .info-title {
   font-size: 0.85rem;
   font-weight: 700;
-  color: #ff6b6b;
+  color: #58d4ff;
   margin: 0 0 0.5rem 0;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -173,14 +205,14 @@
 }
 
 .sidebar::-webkit-scrollbar-thumb {
-  background: rgba(255, 107, 107, 0.5);
+  background: rgba(88, 212, 255, 0.6);
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 
 .sidebar::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 107, 107, 0.8);
-  box-shadow: 0 0 15px rgba(255, 107, 107, 0.5);
+  background: rgba(88, 212, 255, 0.9);
+  box-shadow: 0 0 15px rgba(88, 212, 255, 0.5);
 }
 
 @media (max-width: 768px) {

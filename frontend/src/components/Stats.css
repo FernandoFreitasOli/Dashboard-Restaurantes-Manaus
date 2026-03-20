@@ -1,14 +1,14 @@
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
   margin-bottom: 3rem;
 }
 
 .stat-card {
-  background: linear-gradient(135deg, rgba(26, 42, 68, 0.3) 0%, rgba(36, 52, 71, 0.25) 100%);
+  background: linear-gradient(135deg, rgba(12, 48, 69, 0.34) 0%, rgba(18, 66, 88, 0.24) 100%);
   backdrop-filter: blur(15px);
-  border: 1.8px solid rgba(255, 107, 107, 0.25);
+  border: 1.8px solid rgba(88, 212, 255, 0.25);
   border-radius: 18px;
   padding: 2rem 1.8rem;
   display: flex;
@@ -17,7 +17,7 @@
   gap: 1.2rem;
   text-align: center;
   transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2), 0 0 35px rgba(255, 107, 107, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2), 0 0 35px rgba(88, 212, 255, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.08);
   position: relative;
   overflow: hidden;
 }
@@ -42,7 +42,7 @@
   right: -30%;
   width: 250px;
   height: 250px;
-  background: radial-gradient(circle, rgba(255, 107, 107, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(88, 212, 255, 0.15) 0%, transparent 70%);
   border-radius: 50%;
   opacity: 0;
   transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -51,8 +51,8 @@
 
 .stat-card:hover {
   transform: translateY(-10px);
-  border-color: rgba(255, 107, 107, 0.4);
-  box-shadow: 0 20px 70px rgba(255, 107, 107, 0.2), 0 0 50px rgba(255, 107, 107, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  border-color: rgba(88, 212, 255, 0.46);
+  box-shadow: 0 20px 70px rgba(88, 212, 255, 0.2), 0 0 50px rgba(30, 200, 165, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.12);
   background: linear-gradient(135deg, rgba(26, 42, 68, 0.4) 0%, rgba(36, 52, 71, 0.35) 100%);
 }
 
@@ -72,18 +72,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.15) 0%, rgba(255, 107, 107, 0.08) 100%);
+  background: linear-gradient(135deg, rgba(88, 212, 255, 0.18) 0%, rgba(30, 200, 165, 0.12) 100%);
   border-radius: 16px;
   transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-  filter: drop-shadow(0 5px 15px rgba(255, 107, 107, 0.2));
+  filter: drop-shadow(0 5px 15px rgba(88, 212, 255, 0.2));
   position: relative;
   z-index: 2;
 }
 
 .stat-card:hover .stat-icon {
   transform: scale(1.2) rotate(8deg);
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.25) 0%, rgba(255, 107, 107, 0.12) 100%);
-  filter: drop-shadow(0 8px 25px rgba(255, 107, 107, 0.4));
+  background: linear-gradient(135deg, rgba(88, 212, 255, 0.3) 0%, rgba(30, 200, 165, 0.2) 100%);
+  filter: drop-shadow(0 8px 25px rgba(88, 212, 255, 0.45));
 }
 
 .stat-content {
@@ -104,7 +104,7 @@
 }
 
 .stat-card:hover .stat-label {
-  color: #ff6b6b;
+  color: #58d4ff;
   letter-spacing: 1.5px;
 }
 
@@ -118,14 +118,14 @@
 }
 
 .stat-card:hover .stat-value {
-  color: #ff6b6b;
-  text-shadow: 0 0 25px rgba(255, 107, 107, 0.6);
+  color: #9be8ff;
+  text-shadow: 0 0 25px rgba(88, 212, 255, 0.6);
   transform: scale(1.08);
 }
 
 @media (max-width: 768px) {
   .stats-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     margin-bottom: 1.5rem;
   }

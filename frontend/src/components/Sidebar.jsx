@@ -1,7 +1,14 @@
 import React from 'react'
 import './Sidebar.css'
 
-export default function Sidebar({ filters, filterOptions, onFilterChange }) {
+export default function Sidebar({
+  filters,
+  filterOptions,
+  onFilterChange,
+  onRunScraping,
+  scrapingLoading,
+  statusMessage
+}) {
   return (
     <aside className="sidebar slide-in">
       <div className="sidebar-content">
@@ -99,6 +106,16 @@ export default function Sidebar({ filters, filterOptions, onFilterChange }) {
         >
           ✨ Resetar Filtros
         </button>
+
+        <button
+          className="btn-scraping"
+          onClick={onRunScraping}
+          disabled={scrapingLoading}
+        >
+          {scrapingLoading ? 'Atualizando Base...' : 'Coletar Dados de Mercado'}
+        </button>
+
+        {statusMessage && <p className="status-message">{statusMessage}</p>}
 
         {/* Informações adicionais */}
         <div className="sidebar-info">

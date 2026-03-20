@@ -44,6 +44,22 @@ export default function Stats({ stats }) {
           <p className="stat-value">{formatCurrency(stats.preco_total)}</p>
         </div>
       </div>
+
+      <div className="stat-card">
+        <div className="stat-icon">🎫</div>
+        <div className="stat-content">
+          <p className="stat-label">Ticket Medio</p>
+          <p className="stat-value">{formatCurrency(stats.ticket_medio)}</p>
+        </div>
+      </div>
+
+      <div className="stat-card">
+        <div className="stat-icon">🌐</div>
+        <div className="stat-content">
+          <p className="stat-label">Restaurantes no Mercado</p>
+          <p className="stat-value">{(stats.market_restaurantes || 0).toLocaleString('pt-BR')}</p>
+        </div>
+      </div>
     </div>
   )
 }
