@@ -1,0 +1,267 @@
+/* ==================================
+   ESTILOS GLOBAIS
+   ================================== */
+
+:root {
+    --primary-color: #0f3460;
+    --secondary-color: #16213e;
+    --accent-color: #ff6b6b;
+    --text-light: #adb5bd;
+    --bg-dark: #0a0e27;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==================================
+   SCROLLBAR
+   ================================== */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--secondary-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff5252;
+}
+
+/* ==================================
+   DROPDOWNS
+   ================================== */
+
+.Select-control {
+    background-color: #0f3460 !important;
+    border: 1px solid #ff6b6b !important;
+    border-radius: 8px !important;
+}
+
+.Select-menu-outer {
+    background-color: #1a1a2e !important;
+    border: 1px solid #16213e !important;
+    border-radius: 8px !important;
+}
+
+.Select-option {
+    color: #fff !important;
+    padding: 10px 12px !important;
+    transition: all 0.2s ease;
+}
+
+.Select-option:hover {
+    background-color: var(--accent-color) !important;
+    color: #fff !important;
+}
+
+.Select-option.is-selected {
+    background-color: var(--accent-color) !important;
+    color: #fff !important;
+}
+
+.Select-placeholder {
+    color: #adb5bd !important;
+}
+
+.Select-input > input {
+    color: #fff !important;
+}
+
+/* ==================================
+   DATE PICKER
+   ================================== */
+
+.DatePickerWrapper {
+    width: 100%;
+}
+
+.DatePickerWrapper input {
+    background-color: #0f3460 !important;
+    border: 1px solid #ff6b6b !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    padding: 10px 12px !important;
+    font-size: 14px !important;
+}
+
+.DatePickerWrapper input:focus {
+    outline: none !important;
+    border-color: #ff5252 !important;
+    box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.1) !important;
+}
+
+.CalendarContainer {
+    background-color: #1a1a2e !important;
+}
+
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+    background-color: var(--accent-color) !important;
+    color: #fff !important;
+}
+
+.DayPicker-Day:hover {
+    background-color: rgba(255, 107, 107, 0.3) !important;
+}
+
+/* ==================================
+   CARDS
+   ================================== */
+
+.card {
+    background-color: #1a1a2e !important;
+    border: 1px solid #16213e !important;
+    border-radius: 12px !important;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 8px 24px rgba(255, 107, 107, 0.15) !important;
+}
+
+.card-body {
+    padding: 20px !important;
+}
+
+/* ==================================
+   GRÁFICOS
+   ================================== */
+
+.plotly-graph-div {
+    border-radius: 8px;
+}
+
+.plotly .hoverlayer {
+    pointer-events: none;
+}
+
+/* ==================================
+   TÍTULOS E TEXTO
+   ================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+label {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* ==================================
+   ANIMAÇÕES
+   ================================== */
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container-fluid {
+    animation: fadeIn 0.5s ease;
+}
+
+/* ==================================
+   RESPONSIVIDADE
+   ================================== */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px !important;
+    }
+
+    .card {
+        margin-bottom: 15px !important;
+    }
+}
+
+/* ==================================
+   BOTÕES (se usado no futuro)
+   ================================== */
+
+.btn {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    border: none !important;
+}
+
+.btn-primary {
+    background-color: var(--accent-color) !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover {
+    background-color: #ff5252 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(255, 107, 107, 0.3) !important;
+}
+
+/* ==================================
+   TABELAS (se usado no futuro)
+   ================================== */
+
+.table {
+    color: #fff;
+    border-color: #16213e;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(255, 107, 107, 0.05);
+}
+
+.table-striped > tbody > tr:hover {
+    background-color: rgba(255, 107, 107, 0.1);
+}
+
+/* ==================================
+   ALERTAS (se usado no futuro)
+   ================================== */
+
+.alert {
+    border: none;
+    border-radius: 8px;
+}
+
+.alert-info {
+    background-color: rgba(255, 107, 107, 0.1);
+    color: var(--accent-color);
+}
