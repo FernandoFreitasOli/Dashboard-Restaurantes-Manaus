@@ -76,25 +76,29 @@ As melhorias prometidas na evolucao visual e de usabilidade foram aplicadas em g
 
 ### 1. Backend (Python)
 
+Na primeira vez, instale tudo com:
+
 ```bash
-source .venv/bin/activate
-python app.py
+./setup.sh
 ```
 
-ou, para API dedicada:
+Depois, em um terminal, rode a API usando o Python do ambiente virtual:
 
 ```bash
-source .venv/bin/activate
-python api.py
+.venv/bin/python api.py
 ```
 
 ### 2. Frontend (React)
 
 ```bash
 cd frontend
-npm install
 npm run dev
 ```
+
+Abra http://localhost:3000.
+
+> O `api.py` é o backend usado pelo frontend React. O `app.py` inicia a versão antiga em Dash e não deve ser usado junto com o frontend React.
+
 
 ## Roadmap (Proximas Entregas)
 
